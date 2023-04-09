@@ -13,4 +13,11 @@
         <item name="android:statusBarColor">@color/my_primary</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="AppTheme" parent="android:Theme.Light">
+    <item name="android:popupMenuStyle">@style/PopupMenu</item>
+</style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
 </resources>
